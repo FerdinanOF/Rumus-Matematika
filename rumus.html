@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<hmtl> 
+    <head> 
+      <style type="text/css">
+        .container{
+        background:grey;
+        position: fixed;
+        width:625px;
+        height:235px;
+        padding:10px;
+        top: 50%;
+        left: 50%;
+        margin-top: -250px;
+        margin-left: -300px;
+      }
+      </style>
+        <title>Balok</title>  
+    </head> 
+    <body background="matik.jpg" style="background-size: 1400px"> 
+        <div class="container"> 
+            <div style="border : 2px solid white; width : 500px; padding: 0px 60px 0px">
+                <h1 style="color: white;">Penghitung Luas Permukaan Balok</h1>  
+                    <table>
+                    <form action="rumus.php" method="POST">
+                      <tr style="height: 30px;">
+                        <td style="width: 70px;">Panjang</td>
+                        <td style="width: 70px;">:</td>
+                        <td>
+                          <input type="text" name="panjang" value="" required=""> cm
+                        </td>
+                      </tr> 
+                      <tr style="height: 30px;">
+                        <td style="width: 70px;">Lebar</td>
+                        <td style="width: 70px;">:</td>
+                        <td>
+                          <input type="text" name="lebar" value="" required=""> cm
+                        </td>
+                      </tr>
+                      <tr style="height: 30px;">
+                        <td style="width: 70px;">Tinggi</td>
+                        <td style="width: 70px;">:</td>
+                        <td>
+                          <input type="text" name="tinggi" value="" required=""> cm
+                        </td>
+                      </tr>
+                      <tr style="height: 50px">
+                        <td></td>
+                        <td></td>
+                        <td style="margin-bottom: 100px">
+                          <input type="submit" name="kirim"/>
+                        </td>
+                      </tr> 
+                    </form>
+                    </table>
+            </div> 
+        </div> 
+    </body> 
+</hmtl>
